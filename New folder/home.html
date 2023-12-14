@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #ff0000;
+}
+
+.home{
+    height: 100vh;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-content h4{
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.home-content p{
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+    line-height: 1.2;
+    color: gray;
+}
+
+div.img{
+    margin-top: 50px;
+    margin-left: 38%;
+
+}
+    </style>
+</head>
+<body>
+    <div>
+    <header class="header">
+        <a href="#" class="logo">Pompeo</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+            <a href="#">Cart</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h4>POMPEO POTTERY</h4>
+            <h1>Unique Porcelain &<br>Stone Collection</h1>
+            <p>Unique & modern pottery made by our master in porcelain & stones</p>
+            <div class="btn-box">
+                <a href="#">SHOP COLLECTION</a>
+            </div>
+            <div class="img">
+                <img src="5e602d43ad635f0fe2d06a05_Untitled-2d2 (2).png" >
+            </div>
+        </section>
+</div>
+</body>
+</html>
